@@ -17,9 +17,11 @@
         <div class="navigation">
             <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
 
-            <label for="navi-toggle" class="navigation__button">MENU</label>
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
 
-            <div class="navigation__background"></div>
+            <div class="navigation__background">&nbsp;</div>
 
             <nav class="navigation__nav">
                 <ul class="navigation__list">
@@ -41,14 +43,14 @@
                     <span class="heading-primary--main">Outdoors</span>
                     <span class="heading-primary--sub">is where life happens</span>
                 </h1>
-                <a href="#" class="btn btn--white btn--animated">Discover our tours</a>
+                <a href="#section-tours" class="btn btn--white btn--animated">Discover our tours</a>
             </div>
         </header>
 
         <main>
             <section class="section-about">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondery">
+                    <h2 class="heading-secondary">
                         Exciting tours for adventarus people
                     </h2>
                 </div>
@@ -122,9 +124,9 @@
                     </div>
                 </div>
             </section>
-            <section class="section-tours">
+            <section class="section-tours" id="section-tours">
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondery">
+                    <h2 class="heading-secondary">
                         Most popular tours
                     </h2>
                 </div>
@@ -154,7 +156,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$297</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -185,7 +187,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$497</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -216,7 +218,7 @@
                                         <p class="card__price-only">Only</p>
                                         <p class="card__price-value">$897</p>
                                     </div>
-                                    <a href="#" class="btn btn--white">Book now!</a>
+                                    <a href="#popup" class="btn btn--white">Book now!</a>
                                 </div>
                             </div>
                         </div>
@@ -240,7 +242,7 @@
                 </div>
 
                 <div class="u-center-text u-margin-bottom-big">
-                    <h2 class="heading-secondery">
+                    <h2 class="heading-secondary">
                         we make people genuinely happy
                     </h2>
                 </div>
@@ -294,7 +296,7 @@
                         <div class="book__form">
                             <form action="#" class="form">
                                 <div class="u-margin-bottom-medium">
-                                    <h2 class="heading-secondery">
+                                    <h2 class="heading-secondary">
                                         Start Booking Now !
                                     </h2>
                                 </div>
@@ -348,75 +350,36 @@
                     </div>
                 </div>
                 <div class="col-1-of-2">
-                    <p class="footer__copyright">
+                    <p class="footer__copyright">s
                         Built my <a href="#" class="footer__link">Arup Biswas</a> for his online course <a href="#" class="footer__link">Advance CSS and SASS</a>. Copyright &copy; by Arup Biswas. You are 100% allowed to use this webpage for both personal and commertial use, but NOT to clam as it your own design. A credit to the original author Jons, is ofcourse highly appreciated!
                     </p>
                 </div>
             </div>
         </footer>
 
+        <div class="popup" id="popup">
+            <div class="popup__content">
+                <div class="popup__left">
+                    <img src="img/nat-8.jpg" alt="Tour photo" class="popup__img">
+                    <img src="img/nat-9.jpg" alt="Tour photo" class="popup__img">
+                </div>
+                <div class="popup__right">
+                    <a href="#section-tours" class="popup__close">&times;</a>
+                    <h2 class="heading-secondary u-margin-bottom-small">Start Booking now</h2>
+                    <h3 class="heading-tertiary u-margin-bottom-small">Importan &ndash; PLease read the terms before booking</h3>
+                    <p class="popup__text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+                        Massa enim nec dui nunc mattis. Eu nisl nunc mi ipsum faucibus vitae. 
+                        Amet consectetur adipiscing elit ut aliquam. Aliquam etiam erat velit scelerisque in. 
+                        Leo a diam sollicitudin tempor id eu nisl nunc mi. Bibendum at varius vel pharetra vel turpis nunc eget lorem. 
+                        In hac habitasse platea dictumst vestibulum. Arcu risus quis varius quam quisque id diam vel quam. 
+                        Risus in hendrerit gravida rutrum quisque non tellus orci ac. Consequat nisl vel pretium lectus. 
+                        Viverra aliquet eget sit amet. Placerat duis ultricies lacus sed. Et odio pellentesque diam volutpat commodo.
+                    </p>
+                    <a href="#" class="btn btn--green">Book now</a>
+                </div>
+            </div>
+        </div>
 
-        <!-- <section class="grid-test">
-            <div class="row">
-                <div class="col-1-of-2">
-                    Col 1 of 2
-                </div>
-                <div class="col-1-of-2">
-                    Col 1 of 2
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-3">
-                    Col 1 of 3
-                </div>
-                <div class="col-2-of-3">
-                    Col 2 of 3
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-2-of-4">
-                    Col 2 of 4
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-1-of-4">
-                    Col 1 of 4
-                </div>
-                <div class="col-3-of-4">
-                    Col 3 of 4
-                </div>
-            </div>
-        </section>    -->
     </body>
 </html>
